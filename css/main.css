@@ -1,0 +1,179 @@
+/*********** BASE STYLES **********/
+
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+}
+
+/********** GRID ***************/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    margin: 0 auto;
+    overflow: auto;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    margin: 0 auto;
+    overflow: auto;
+    width: 400px;
+    height: 195px;
+}
+
+.middle-width {
+    float: left;
+    margin: 0 auto;
+    overflow: auto;
+    width: 398px;
+    height: 195px;
+}
+
+/********** HEADER ***********************************/
+
+header h1 {
+    color: #77A466;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #000000;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    color: #77A466;
+    font-size: 14px;
+    padding-top: 12px;
+    padding-right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold; 
+}
+
+/********** GREEN BEAN PICTURE CONTAINER ********************/
+
+#green-bean-container .full-width {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #77A466;
+}
+
+/********** TOP SECTION ***********************************/
+
+#top-section h2 {
+    color: #77A466;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+#top-section p {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/********** BOTTOM SECTION ***********************************/
+
+#informational-section {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color:#dedbdc ; 
+}
+
+#informational-section h3 {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+#menu {
+    background-color: #ffffff;
+}
+
+#menu ul {
+    padding-left: 0px;
+}
+
+#menu ul li {
+    color: #77A466;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 36px;
+    list-style: none;
+    text-transform: capitalize;
+    text-decoration: none;
+}   
+
+#review {
+    background-color: #ffffff;
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+
+#review h3 {
+    padding-right: 30px;
+    padding-left: 30PX;
+}
+
+#review p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#contact {
+    background-color: #ffffff;
+}
+
+#contact h3 {
+    padding-right: 30px;
+    padding-left: 30PX;
+}
+
+#contact p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/********** FOOTER SECTION ***********************************/
+
+#footer p {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#footer p span {
+    color: #77A466;
+    font-family: 'Galada', cursive;
+}
